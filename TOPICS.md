@@ -22,6 +22,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-19 Dubai: City of Gold
 - [x] 2026-11-19 PlayStation business model (GTA 6 launch)
 - [x] 2026-11-20 10:40 AM Paytm wallet comeback (posted by owner) — https://www.instagram.com/reel/Df83wZKhi2x/
-- [x] 2026-11-20 7:00 PM How government tenders work + bribery (scheduled, Instagram only)
+- [x] 2026-11-20 7:00 PM How government tenders work + bribery (Instagram only) — https://www.instagram.com/reel/Df9ASUAlcRs/
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending
