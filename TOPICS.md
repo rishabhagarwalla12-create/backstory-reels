@@ -5,7 +5,6 @@ When the queue is empty, pick a fresh topic from that week's news or finshots.in
 The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
-- [ ] Rupee rollercoaster — fell to a record low near ₹96/$ in March 2026, now recovered to ~₹93.6, best in six months (Finshots, 16 Nov 2026). Hook: "In March, one dollar cost almost ₹96…"
 - [ ] Demonetisation at 10 — what it actually changed (Finshots, 18 Nov 2026). Hook: "Ten years ago, 86% of India's cash became paper overnight…"
 - [ ] How astrology became a big-money business in India (Finshots, 4 Nov 2026)
 - [ ] Why China is paying its people to shop (Finshots, 9 Nov 2026)
@@ -23,5 +22,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-19 PlayStation business model (GTA 6 launch)
 - [x] 2026-11-20 10:40 AM Paytm wallet comeback (posted by owner) — https://www.instagram.com/reel/Df83wZKhi2x/
 - [x] 2026-11-20 7:00 PM How government tenders work + bribery (Instagram only) — https://www.instagram.com/reel/Df9ASUAlcRs/
+- [x] 2026-11-21 1:30 PM Rupee rollercoaster (record low ₹96.96 on 20 May 2026, not March; now ~₹93) — https://www.instagram.com/reel/Df_k70IkSXk/ | https://youtube.com/shorts/eCizH77zhtY
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending
