@@ -4,7 +4,7 @@ Instagram: @thebackstory.daily (Creator account). Bio: "One explainer a day. No 
 Owner: Rishabh Agarwalla. Posts twice a day: **1:30 PM IST** and **7:00 PM IST**, on Instagram (Reels) and YouTube (Shorts).
 
 ## What a reel is
-- Vertical 1080x1920, 30 fps, **55–60 s max**, explaining one interesting concept in plain, layman language (anyone should understand it).
+- Vertical 1080x1920, 30 fps, **35–50 s** (60 s hard max), explaining ONE interesting concept in plain, layman language (anyone should understand it).
 - Topics: business, money, economy, how-things-work, world concepts. Finshots (finshots.in) is a good source of ideas.
 - Informative only: **no opinions, no advice**. Never recommend stocks or say buy/sell; no live stock prices (SEBI finfluencer rules allow education only; historical data only, 3+ months old). Add "Not investment advice." in captions on finance topics.
 - Corruption / crime / allegations: attribute every claim to its source (CBI, CCI, court, regulator) and say "alleged"/"says". Never generalise ("all X are corrupt").
@@ -20,6 +20,19 @@ The opening must grab attention in the first 2 seconds:
 4. **Make it about the viewer** where it fits ("your money", "you").
 Example: not "India's government is a giant shopper" but "One percent. That's the bribe a railway engineer allegedly asked for on a ₹40 crore tender."
 
+## KEEP IT LIGHT (owner's feedback, 22 Nov 2026, mandatory)
+Interesting, appealing and educational, but never more info than people can process in one watch.
+1. **One core idea per reel** (e.g. "astrology apps run on a per-minute meter"). Everything in the script serves that idea.
+2. **Max 3 numbers** in the whole reel, rounded and simple. The hook number counts.
+3. **~10 short voice lines (~90–110 words, voice total ≈ 30–38 s)**, one visual per line, with breathing room (Timeline gap=0.3, scene_gap=0.45).
+4. Cut facts that aren't needed for the core idea, however interesting; extras can go in the caption.
+5. End on a punchline that calls back to the hook.
+
+## Topics and initiative
+- Pick topics yourself and post; **never ask the owner** to choose or approve. The owner's own ideas in TOPICS.md go first.
+- Prefer topics with one surprising, relatable idea (everyday money, how things around you work). You may reorder or replace queue topics if a better one exists; note it in TOPICS.md.
+- The owner allows account-benefiting actions without asking (e.g. replying to genuine comments on our reels, fixing a caption typo). No spammy growth tactics (mass follow/like/DM, buying engagement) and nothing that risks the account getting flagged.
+
 ## Fact rules
 - Research with web search before writing. Every number must come from a source found that day; note it for the caption's Sources line.
 - "Trending/this week" means the event happened in the last ~2 weeks: **check the actual date and year** of the source (a 2025 story once got mistaken for 2026).
@@ -32,7 +45,7 @@ Example: not "India's government is a giant shopper" but "One percent. That's th
 <Question or "What happened?">
 <emoji> point
 <emoji> point
-... (4–8 points, short)
+... (3–5 points, short)
 
 <one-line punchline>
 
@@ -53,14 +66,14 @@ cp -r toolkit/lib /home/claude/lib && mkdir -p /home/claude/tts && cp toolkit/vo
 pip install --break-system-packages -q kokoro-onnx soundfile
 cd /home/claude/tts && for f in kokoro-v1.0.onnx voices-v1.0.bin; do curl -sSL -o $f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
 ```
-1. Write `/home/claude/tts/<slug>.json` (list of [key, line]) and optional `<slug>_fix.json` (phoneme fixes). Run `python3 vo.py <slug>.json /home/claude/<slug>/vo` and check TOTAL ≈ 52–54 s (trim lines if longer).
+1. Write `/home/claude/tts/<slug>.json` (list of [key, line]) and optional `<slug>_fix.json` (phoneme fixes). Run `python3 vo.py <slug>.json /home/claude/<slug>/vo` and check TOTAL ≈ 30–38 s (trim lines if longer; see KEEP IT LIGHT).
 2. Copy `toolkit/examples/tenders/build.py` to `/home/claude/<slug>/build.py`, change paths, SCENES and scene functions. Helpers in `lib/reel.py`: pop, rise, stamp, text, paste, overlay, envelope, check, cross, logo, caption, Timeline, render_scene. `lib/audio.py` builds music+SFX+voice mix.
 3. `python3 build.py info` (total ≤ 60 s), `python3 build.py still <t> ...` and LOOK at the frames (overlaps, text off-screen, safe zone x 80–1000, y 230–1420), fix, then `python3 build.py audio` and `python3 build.py scene`.
 4. Join + mux:
 ```
 ls parts/*.mp4 | sed "s/^/file '/;s/$/'/" > list.txt && ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy joined.mp4 && ffmpeg -y -loglevel error -i joined.mp4 -i mix_full.wav -map 0:v -map 1:a -c:v copy -af "loudnorm=I=-14:TP=-1.5:LRA=11" -ar 48000 -c:a aac -b:a 192k -shortest -movflags +faststart <Name>_reel.mp4
 ```
-5. Check final frames once more.
+5. Check final frames once more. Single-pass loudnorm lands around -15 LUFS; for -14, run a two-pass loudnorm (measure with print_format=json, then apply measured_* values with linear=true).
 
 ## How to publish
 1. Copy the mp4 to `reels/YYYY-MM-DD-<slug>.mp4`, commit, push to `main` (end commit messages with the session attribution lines). Public link:
