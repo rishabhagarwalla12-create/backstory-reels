@@ -80,6 +80,6 @@ ls parts/*.mp4 | sed "s/^/file '/;s/$/'/" > list.txt && ffmpeg -y -loglevel erro
    `https://raw.githubusercontent.com/rishabhagarwalla12-create/backstory-reels/main/reels/<file>.mp4`
 2. Instagram (mcp__Instagram__ tools): `instagram_post_ig_user_media` with ig_user_id "me", media_type REELS, video_url, caption, share_to_feed true -> container id. Poll `instagram_get_ig_media` fields status_code until FINISHED.
 3. At the slot time (1:30 PM or 7:00 PM IST) call `instagram_post_ig_user_media_publish` (ig_user_id "me", creation_id). If the slot is still in the future, schedule it with `send_later` into this same session; if it has passed, publish right away.
-4. YouTube (Zapier, selected_api YouTubeV4CLIAPI, action upload_video): title, description, video = the raw GitHub URL, privacy_status public, made_for_kids false, notify_subscribers true. Do it at the same time as the Instagram publish.
+4. YouTube (Zapier, selected_api YouTubeV4CLIAPI, action upload_video; if it says no default connection, pass connection_id 02edc458-57c5-8e87-85f5-b0452819f48f, the Backstory Daily channel): title, description, video = the raw GitHub URL, privacy_status public, made_for_kids false, notify_subscribers true. Do it at the same time as the Instagram publish.
 5. Mark the topic done in TOPICS.md with date, slot, and both links; commit and push.
 6. Tell the owner (SendUserMessage) the Instagram permalink and YouTube link.
