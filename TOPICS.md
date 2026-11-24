@@ -5,7 +5,6 @@ When the queue is empty, pick a fresh topic from that week's news or finshots.in
 The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
-- [ ] Why liquor stocks are falling — explain the business, no stock calls (Finshots, 20 Nov 2026)
 - [ ] Who invented the weekend?
 - [ ] Why Dutch prisons are shutting down
 - [ ] How "free" credit cards make money
@@ -23,5 +22,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-22 7:00 PM Why China pays its people to shop (trade-in subsidy up to 15%; household spending ~40% of GDP vs ~70% US) — https://www.instagram.com/reel/DgCymEsj8dq/ | https://youtube.com/shorts/IQJXebHb-jU
 - [x] 2026-11-23 1:30 PM India's emergency oil lasts ~10 days (you pay twice: caves + idle oil; doubling ≈ ₹40,000+ crore; Japan 200+ days) — https://www.instagram.com/reel/DgEunKVkQQ0/ | https://youtube.com/shorts/K1QuKS2Ak-U
 - [x] 2026-11-23 7:00 PM Why tyre prices keep rising (JK Tyre +12% in 6 months; ~70% of cost is raw materials; natural rubber +53% YoY; oil-based synthetic rubber + carbon black) — https://www.instagram.com/reel/DgFX0Q5EgNX/ | https://youtube.com/shorts/Bl7tIUdKhkw
+- [x] 2026-11-24 1:30 PM Why liquor stocks fell: bulk Scotch duty (India–UK deal halved Scotch tax to 75% in Jul 2026; ~80% of UK Scotch arrives in bulk for Indian blends; customs wants 150% duty + tax = 162.5%, per Reuters 18 Nov 2026; dispute unsettled) — https://www.instagram.com/reel/DgHTIiZHH5j/ | https://youtube.com/shorts/hBNrLDCU1bU
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending
