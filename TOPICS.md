@@ -5,8 +5,8 @@ When the queue is empty, pick a fresh topic from that week's news or finshots.in
 The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
+- [ ] Why petrol costs what it costs (tax split) — moved up 25 Nov: closest to the oil reel (1,213 views); see PERFORMANCE.md
 - [ ] How "free" credit cards make money
-- [ ] Why petrol costs what it costs (tax split)
 - [ ] How IPL teams make money
 
 ## Done

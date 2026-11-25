@@ -8,7 +8,7 @@ Owner: Rishabh Agarwalla. Posts twice a day: **1:30 PM IST** and **7:00 PM IST**
 - Topics: business, money, economy, how-things-work, world concepts. Finshots (finshots.in) is a good source of ideas.
 - Informative only: **no opinions, no advice**. Never recommend stocks or say buy/sell; no live stock prices (SEBI finfluencer rules allow education only; historical data only, 3+ months old). Add "Not investment advice." in captions on finance topics.
 - Corruption / crime / allegations: attribute every claim to its source (CBI, CCI, court, regulator) and say "alleged"/"says". Never generalise ("all X are corrupt").
-- Male narrator: Kokoro TTS voice `am_michael`, speed 1.05 (story pace), American English; settings live at the top of `toolkit/vo.py`. Delivery follows STORY VOICE below. Check phonemes for Indian words and fix them (lakh -> lˈɑːk, Paytm -> pˈeɪtˌiːˈɛm, karo -> kəɹˈoʊ, Dubai -> duːbˈaɪ).
+- Male narrator: Kokoro TTS voice `am_fenrir` (owner's pick, 25 Nov 2026; was am_michael), speed 1.05 (story pace), American English; settings live at the top of `toolkit/vo.py`. Delivery follows STORY VOICE below. Check phonemes for Indian words and fix them (lakh -> lˈɑːk, Paytm -> pˈeɪtˌiːˈɛm, karo -> kəɹˈoʊ, Dubai -> duːbˈaɪ).
 - Look: gold-on-black, brand header "? THE BACKSTORY DAILY" with the globe-dot question-mark logo, thin gold progress bar, burnt-in captions box near the bottom, source line in grey. Anton for headlines, DM Sans for body. Red for warnings, blue for "frozen" etc. End card: logo + @thebackstory.daily.
 - Music and SFX are synthesized in code (no licensed audio). Loudness -14 LUFS.
 
@@ -18,6 +18,7 @@ The opening must grab attention in the first 2 seconds:
 2. **Text on screen from frame 1** (big number / stamp / slam), no slow lead-in.
 3. **Open loop**: tease the payoff so people keep watching.
 4. **Make it about the viewer** where it fits ("your money", "you").
+5. **Frame 0 already shows the hook text** at full size and opacity (no fade or pop from blank), and the first voice line starts within 0.1 s. Check with `python3 build.py still 0`.
 Example: not "India's government is a giant shopper" but "One percent. That's the bribe a railway engineer allegedly asked for on a ₹40 crore tender."
 
 ## STORY VOICE (owner's feedback, 25 Nov 2026, mandatory)
@@ -25,7 +26,7 @@ The narration should feel like someone telling a story with a bit of curiosity, 
 1. **Write it as a story**: a time or place, a person, a problem, a twist, a payoff. "Nineteen twenty-six. Detroit. One man made a decision that still shapes your week."
 2. **Curiosity beats**: 1–2 per reel, e.g. "Sounds kind, right?", "But here's the twist.", "So why would anyone do that?", "And that's where it gets interesting." Don't overdo it.
 3. **Short lines, split at the reveal**: put the set-up and the reveal on separate lines so there is a beat between them.
-4. **Pacing via lines.json** (`[key, text, speed_mult, pause_after_s]`): slow the hook and reveal lines (speed_mult 0.92–0.95), add a pause of 0.5–0.7 s before a twist and after a question; normal lines need neither. Questions end with "?" so the voice rises.
+4. **Pacing via lines.json** (`[key, text, speed_mult, pause_after_s]`): the FIRST line is never slowed and has no pause before it (most viewers decide in 2–3 s; see PERFORMANCE.md). After the hook, slow reveal lines (speed_mult 0.92–0.95) and add a 0.5–0.7 s pause before a twist and after a question; normal lines need neither. Questions end with "?" so the voice rises.
 5. Listen-check by reading the printed durations: no line should run longer than ~4 s.
 
 ## KEEP IT LIGHT (owner's feedback, 22 Nov 2026, mandatory)
@@ -45,6 +46,21 @@ The profile grid must show what every reel is about. A bare number ("+12%", "10 
 5. Command (after the final mp4 exists):
    `python3 toolkit/cover.py reels/YYYY-MM-DD-<slug>.jpg --kicker "YOUR MONEY" --title "Why *tyres* keep getting *costlier*" --bg reels/YYYY-MM-DD-<slug>.mp4 --t 5`
    Then LOOK at the cover cropped to 3:4 (`Image.open(f).crop((0,240,1080,1680))`): the title must be readable at thumbnail size, with no cut-off words.
+
+## YOU'RE IN CHARGE (owner's instruction, 25 Nov 2026)
+The owner wants this page run by you, not by him. Think about what would make the page better and decide; don't ask him to choose.
+1. **Every run, start with the numbers**: pull Instagram insights (views, reach, ig_reels_avg_watch_time, saved, shares) for the last ~20 reels and update the table in PERFORMANCE.md.
+2. **Act on them**: if the data shows something (a topic type, hook style, length or slot that clearly wins or loses), change the rule in this playbook, log it in PERFORMANCE.md's Decisions log with the reason, and apply it in this run's reel. Small, measurable changes; one at a time where possible.
+3. **Sunday 1:30 PM run = weekly review**: compare the week, keep what worked, drop what didn't, end or extend running tests, and decide on slots.
+4. **Tell, don't ask**: in the run's final message, add one line on what you changed and why (if anything). Only check with the owner before spending money, changing the brand look or name, or anything that could get the account flagged.
+5. Hard rules never change: fact rules, SEBI/finfluencer limits, attribution for allegations.
+
+## TOPIC SCORE (from the data, 25 Nov 2026)
+Before picking, score the candidate 0–3, one point each:
+- **Your wallet / daily life in India**: prices, fuel, rupee, loans, apps people use, jobs, things people buy.
+- **In the news this week** (or a launch/result day), checked by date.
+- **One jaw-drop number or twist** that fits in the first line.
+Pick only 2+; prefer 3. Foreign or history topics need an Indian angle in the first line ("Why China pays its people to shop — and why your phone could get cheaper"). Skip anniversaries unless something new happened.
 
 ## Topics and initiative
 - Pick topics yourself and post; **never ask the owner** to choose or approve. The owner's own ideas in TOPICS.md go first.
@@ -68,6 +84,7 @@ The profile grid must show what every reel is about. A bare number ("+12%", "10 
 <one-line punchline>
 
 <Question to the audience> 👇
+<Share prompt, test until 2 Dec 2026: "Send this to someone who …" 📤>
 
 Follow @thebackstory.daily for the story behind the headlines.
 

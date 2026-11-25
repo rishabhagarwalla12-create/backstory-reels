@@ -7,7 +7,7 @@ from kokoro_onnx import Kokoro
 #   speed_mult < 1 slows a line down (hooks, reveals); pause_after_s adds silence after it
 #   (a beat before the twist). See STORY VOICE in PLAYBOOK.md.
 # Narrator settings live here and in PLAYBOOK.md; change both together.
-VOICE = 'am_michael'      # a Kokoro voice name, or a blend like 'am_michael+am_onyx:0.55'
+VOICE = 'am_fenrir'       # owner's pick, 25 Nov 2026. A Kokoro voice name, or a blend like 'am_michael+am_onyx:0.55'
 LANG = 'en-us'
 SPEED = 1.05              # story pace (was 1.2 before 25 Nov 2026)
 
