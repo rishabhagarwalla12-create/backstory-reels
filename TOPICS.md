@@ -5,7 +5,6 @@ When the queue is empty, pick a fresh topic from that week's news or finshots.in
 The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
-- [ ] Why Dutch prisons are shutting down
 - [ ] How "free" credit cards make money
 - [ ] Why petrol costs what it costs (tax split)
 - [ ] How IPL teams make money
@@ -23,5 +22,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-23 7:00 PM Why tyre prices keep rising (JK Tyre +12% in 6 months; ~70% of cost is raw materials; natural rubber +53% YoY; oil-based synthetic rubber + carbon black) — https://www.instagram.com/reel/DgFX0Q5EgNX/ | https://youtube.com/shorts/Bl7tIUdKhkw
 - [x] 2026-11-24 1:30 PM Why liquor stocks fell: bulk Scotch duty (India–UK deal halved Scotch tax to 75% in Jul 2026; ~80% of UK Scotch arrives in bulk for Indian blends; customs wants 150% duty + tax = 162.5%, per Reuters 18 Nov 2026; dispute unsettled) — https://www.instagram.com/reel/DgHTIiZHH5j/ | https://youtube.com/shorts/hBNrLDCU1bU
 - [x] 2026-11-24 7:00 PM Who invented the weekend? (Henry Ford's 5-day, 40-hour week, May 1926 = 100 years; free time = more spending, incl. his cars; US law 1938; India's Sunday off via Lokhande, 1890 in caption) — https://www.instagram.com/reel/DgH8V0BgBpD/ | https://youtube.com/shorts/jXEo9rRk3VU
+- [x] 2026-11-25 1:30 PM Dutch prisons: from empty cells to no cells (queue idea "Why Dutch prisons are shutting down" was a 2016–18 story and is now reversed, so reframed to the 16 Nov 2026 news: govt may free some prisoners up to 4 weeks early; 19 of 58 prisons shut in 5 years to 2017; ~3,300 convicts waiting at home, Dec 2025) — https://www.instagram.com/reel/DgJ3wmQqqRZ/ | https://youtube.com/shorts/5O7UtsLOyI8
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending
