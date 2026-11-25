@@ -19,6 +19,7 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 | 11-24 | 1:30 PM | Bulk Scotch 162.5% duty | 45 | 196 | 164 | 10.8 | 24% | 0 | 0 |
 | 11-24 | 7 PM | Who invented the weekend | 42 | 111 | 103 | 5.5 | 13% | 0 | 0 |
 | 11-25 | 1:30 PM | Dutch prisons (hours old) | 44 | 145 | 117 | 10.0 | 23% | 0 | 0 |
+| 11-25 | 7 PM | Petrol: oil cheaper, petrol not (new) | 48 | – | – | – | – | – | – |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
