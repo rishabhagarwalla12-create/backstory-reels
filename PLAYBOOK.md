@@ -8,7 +8,7 @@ Owner: Rishabh Agarwalla. Posts twice a day: **1:30 PM IST** and **7:00 PM IST**
 - Topics: business, money, economy, how-things-work, world concepts. Finshots (finshots.in) is a good source of ideas.
 - Informative only: **no opinions, no advice**. Never recommend stocks or say buy/sell; no live stock prices (SEBI finfluencer rules allow education only; historical data only, 3+ months old). Add "Not investment advice." in captions on finance topics.
 - Corruption / crime / allegations: attribute every claim to its source (CBI, CCI, court, regulator) and say "alleged"/"says". Never generalise ("all X are corrupt").
-- Male narrator: Kokoro TTS voice `am_michael`, speed 1.2, American English. Check phonemes for Indian words and fix them (lakh -> lˈɑːk, Paytm -> pˈeɪtˌiːˈɛm, karo -> kəɹˈoʊ, Dubai -> duːbˈaɪ).
+- Male narrator: Kokoro TTS voice `am_michael`, speed 1.05 (story pace), American English; settings live at the top of `toolkit/vo.py`. Delivery follows STORY VOICE below. Check phonemes for Indian words and fix them (lakh -> lˈɑːk, Paytm -> pˈeɪtˌiːˈɛm, karo -> kəɹˈoʊ, Dubai -> duːbˈaɪ).
 - Look: gold-on-black, brand header "? THE BACKSTORY DAILY" with the globe-dot question-mark logo, thin gold progress bar, burnt-in captions box near the bottom, source line in grey. Anton for headlines, DM Sans for body. Red for warnings, blue for "frozen" etc. End card: logo + @thebackstory.daily.
 - Music and SFX are synthesized in code (no licensed audio). Loudness -14 LUFS.
 
@@ -20,11 +20,19 @@ The opening must grab attention in the first 2 seconds:
 4. **Make it about the viewer** where it fits ("your money", "you").
 Example: not "India's government is a giant shopper" but "One percent. That's the bribe a railway engineer allegedly asked for on a ₹40 crore tender."
 
+## STORY VOICE (owner's feedback, 25 Nov 2026, mandatory)
+The narration should feel like someone telling a story with a bit of curiosity, not reading a news bulletin.
+1. **Write it as a story**: a time or place, a person, a problem, a twist, a payoff. "Nineteen twenty-six. Detroit. One man made a decision that still shapes your week."
+2. **Curiosity beats**: 1–2 per reel, e.g. "Sounds kind, right?", "But here's the twist.", "So why would anyone do that?", "And that's where it gets interesting." Don't overdo it.
+3. **Short lines, split at the reveal**: put the set-up and the reveal on separate lines so there is a beat between them.
+4. **Pacing via lines.json** (`[key, text, speed_mult, pause_after_s]`): slow the hook and reveal lines (speed_mult 0.92–0.95), add a pause of 0.5–0.7 s before a twist and after a question; normal lines need neither. Questions end with "?" so the voice rises.
+5. Listen-check by reading the printed durations: no line should run longer than ~4 s.
+
 ## KEEP IT LIGHT (owner's feedback, 22 Nov 2026, mandatory)
 Interesting, appealing and educational, but never more info than people can process in one watch.
 1. **One core idea per reel** (e.g. "astrology apps run on a per-minute meter"). Everything in the script serves that idea.
 2. **Max 3 numbers** in the whole reel, rounded and simple. The hook number counts.
-3. **~10 short voice lines (~90–110 words, voice total ≈ 30–38 s)**, one visual per line, with breathing room (Timeline gap=0.3, scene_gap=0.45).
+3. **~10–12 short voice lines (~85–100 words, voice total ≈ 34–44 s including story pauses)**, one visual per line, with breathing room (Timeline gap=0.3, scene_gap=0.45).
 4. Cut facts that aren't needed for the core idea, however interesting; extras can go in the caption.
 5. End on a punchline that calls back to the hook.
 
@@ -76,7 +84,7 @@ cp -r toolkit/lib /home/claude/lib && mkdir -p /home/claude/tts && cp toolkit/vo
 pip install --break-system-packages -q kokoro-onnx soundfile
 cd /home/claude/tts && for f in kokoro-v1.0.onnx voices-v1.0.bin; do curl -sSL -o $f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
 ```
-1. Write `/home/claude/tts/<slug>.json` (list of [key, line]) and optional `<slug>_fix.json` (phoneme fixes). Run `python3 vo.py <slug>.json /home/claude/<slug>/vo` and check TOTAL ≈ 30–38 s (trim lines if longer; see KEEP IT LIGHT).
+1. Write `/home/claude/tts/<slug>.json` (list of [key, line] or [key, line, speed_mult, pause_after_s]) and optional `<slug>_fix.json` (phoneme fixes). Run `python3 vo.py <slug>.json /home/claude/<slug>/vo` and check TOTAL ≈ 34–44 s (trim lines if longer; see KEEP IT LIGHT and STORY VOICE).
 2. Copy `toolkit/examples/tenders/build.py` to `/home/claude/<slug>/build.py`, change paths, SCENES and scene functions. Helpers in `lib/reel.py`: pop, rise, stamp, text, paste, overlay, envelope, check, cross, logo, caption, Timeline, render_scene. `lib/audio.py` builds music+SFX+voice mix.
 3. `python3 build.py info` (total ≤ 60 s), `python3 build.py still <t> ...` and LOOK at the frames (overlaps, text off-screen, safe zone x 80–1000, y 230–1420), fix, then `python3 build.py audio` and `python3 build.py scene`.
 4. Join + mux:
