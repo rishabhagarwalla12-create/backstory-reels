@@ -28,6 +28,16 @@ Interesting, appealing and educational, but never more info than people can proc
 4. Cut facts that aren't needed for the core idea, however interesting; extras can go in the caption.
 5. End on a punchline that calls back to the hook.
 
+## COVER RULES (owner's feedback, 25 Nov 2026, mandatory)
+The profile grid must show what every reel is about. A bare number ("+12%", "10 DAYS") or a dark first frame is not enough.
+1. Every reel gets its own cover, made with `toolkit/cover.py`, and is published with it (Instagram `cover_url`, YouTube `thumbnail`).
+2. **Title = the topic in 3–6 words**, readable by someone who knows nothing yet: "Why *China* pays people to *shop*", "India's oil lasts only *10 days*", "Who *invented* the *weekend*?". Put 1–2 key words in gold with *asterisks*. A number is fine only inside a phrase that says what it is.
+3. **Kicker** (gold pill above the title), one of: YOUR MONEY, BUSINESS, INDIA, WORLD, HISTORY, HOW IT WORKS, TECH, CRIME & JUSTICE.
+4. The grid crops reels to the middle 3:4 (y 240–1680), so the script keeps everything inside y 330–1590. Don't add text outside that.
+5. Command (after the final mp4 exists):
+   `python3 toolkit/cover.py reels/YYYY-MM-DD-<slug>.jpg --kicker "YOUR MONEY" --title "Why *tyres* keep getting *costlier*" --bg reels/YYYY-MM-DD-<slug>.mp4 --t 5`
+   Then LOOK at the cover cropped to 3:4 (`Image.open(f).crop((0,240,1080,1680))`): the title must be readable at thumbnail size, with no cut-off words.
+
 ## Topics and initiative
 - Pick topics yourself and post; **never ask the owner** to choose or approve. The owner's own ideas in TOPICS.md go first.
 - Prefer topics with one surprising, relatable idea (everyday money, how things around you work). You may reorder or replace queue topics if a better one exists; note it in TOPICS.md.
@@ -76,10 +86,10 @@ ls parts/*.mp4 | sed "s/^/file '/;s/$/'/" > list.txt && ffmpeg -y -loglevel erro
 5. Check final frames once more. Single-pass loudnorm lands around -15 LUFS; for -14, run a two-pass loudnorm (measure with print_format=json, then apply measured_* values with linear=true).
 
 ## How to publish
-1. Copy the mp4 to `reels/YYYY-MM-DD-<slug>.mp4`, commit, push to `main` (end commit messages with the session attribution lines). Public link:
-   `https://raw.githubusercontent.com/rishabhagarwalla12-create/backstory-reels/main/reels/<file>.mp4`
-2. Instagram (mcp__Instagram__ tools): `instagram_post_ig_user_media` with ig_user_id "me", media_type REELS, video_url, caption, share_to_feed true -> container id. Poll `instagram_get_ig_media` fields status_code until FINISHED.
+1. Copy the mp4 to `reels/YYYY-MM-DD-<slug>.mp4`, make the cover `reels/YYYY-MM-DD-<slug>.jpg` (COVER RULES), commit both, push to `main` (end commit messages with the session attribution lines). Public links:
+   `https://raw.githubusercontent.com/rishabhagarwalla12-create/backstory-reels/main/reels/<file>.mp4` (and the same path with `.jpg` for the cover)
+2. Instagram (mcp__Instagram__ tools): `instagram_post_ig_user_media` with ig_user_id "me", media_type REELS, video_url, **cover_url = the raw .jpg link**, caption, share_to_feed true -> container id. Poll `instagram_get_ig_media` fields status_code until FINISHED.
 3. At the slot time (1:30 PM or 7:00 PM IST) call `instagram_post_ig_user_media_publish` (ig_user_id "me", creation_id). If the slot is still in the future, schedule it with `send_later` into this same session; if it has passed, publish right away.
-4. YouTube (Zapier, selected_api YouTubeV4CLIAPI, action upload_video; if it says no default connection, pass connection_id 02edc458-57c5-8e87-85f5-b0452819f48f, the Backstory Daily channel): title, description, video = the raw GitHub URL, privacy_status public, made_for_kids false, notify_subscribers true. Do it at the same time as the Instagram publish.
+4. YouTube (Zapier, selected_api YouTubeV4CLIAPI, action upload_video; if it says no default connection, pass connection_id 02edc458-57c5-8e87-85f5-b0452819f48f, the Backstory Daily channel): title, description, video = the raw GitHub URL, thumbnail = the raw .jpg cover URL, privacy_status public, made_for_kids false, notify_subscribers true. Do it at the same time as the Instagram publish.
 5. Mark the topic done in TOPICS.md with date, slot, and both links; commit and push.
 6. Tell the owner (SendUserMessage) the Instagram permalink and YouTube link.
