@@ -3,7 +3,7 @@
 Update the table every run (Instagram insights: views, reach, ig_reels_avg_watch_time, saved, shares) for the last ~20 reels.
 Watched % = avg watch time / reel length. Decisions go in the log at the bottom with the date and the reason.
 
-## Reels (Instagram, lifetime, as of 2026-11-25 15:35 IST)
+## Reels (Instagram, lifetime, as of 2026-11-25 17:45 IST)
 | Date | Slot | Reel | Len s | Views | Reach | Avg watch s | Watched % | Saves | Shares |
 |---|---|---|---|---|---|---|---|---|---|
 | 11-19 | 1:30 PM | Dubai: City of Gold | ~60 | 218 | 175 | 10.5 | ~18% | 0 | 0 |
@@ -18,7 +18,7 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 | 11-23 | 7 PM | Tyre prices | 42 | 128 | 109 | 6.5 | 15% | 0 | 0 |
 | 11-24 | 1:30 PM | Bulk Scotch 162.5% duty | 45 | 196 | 164 | 10.8 | 24% | 0 | 0 |
 | 11-24 | 7 PM | Who invented the weekend | 42 | 111 | 103 | 5.5 | 13% | 0 | 0 |
-| 11-25 | 1:30 PM | Dutch prisons (hours old) | 44 | 141 | 112 | 10.3 | 23% | 0 | 0 |
+| 11-25 | 1:30 PM | Dutch prisons (hours old) | 44 | 145 | 117 | 10.0 | 23% | 0 | 0 |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
@@ -28,6 +28,7 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 - 1:30 PM averaged ~530 views vs ~210 at 7 PM, but two breakouts drive that. Too early to move slots; recheck on Sunday.
 
 ## Decisions log
+- 2026-11-25 (7 PM run): no new rule. Numbers barely moved since the 3:35 PM check (Dutch prisons 141→145 views, all others flat), so the 25 Nov rules stand. Applied them: petrol topic scores 3/3 (your wallet + crude fell this month while pump prices stayed frozen since May + "₹28 of ₹102 is tax" / "the ₹10 tax cut you never saw").
 - 2026-11-25: Grid covers with the topic in 3–6 words (owner feedback; grid was unreadable). COVER RULES.
 - 2026-11-25: Story-style narration, owner chose voice B: Kokoro `am_fenrir`, speed 1.05. STORY VOICE.
 - 2026-11-25: Topic picks must pass the TOPIC SCORE (wallet/daily life + this week's news + one jaw-drop number/twist), from the data above. Moved "Why petrol costs what it costs" to the top of the queue (closest to the oil reel, 1,213 views).
