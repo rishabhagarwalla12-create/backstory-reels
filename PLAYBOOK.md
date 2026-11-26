@@ -14,7 +14,7 @@ Owner: Rishabh Agarwalla. Posts twice a day: **1:30 PM IST** and **7:00 PM IST**
 
 ## HOOK RULES (owner's feedback, mandatory)
 The opening must grab attention in the first 2 seconds:
-1. **Lead with the shock**: the most surprising fact/number first; context comes after.
+1. **Lead with the shock the viewer doesn't know yet** (26 Nov 2026, from the data): the most surprising fact/number first; context comes after. It must be news to them, a hidden money flow, risk or trick ("India's oil backup lasts 10 days", "Every IPL team gets ₹484 crore before a ball is bowled"), not a price rise they've already felt at the shop ("Milk is ₹4 costlier" held people 6 s).
 2. **Text on screen from frame 1** (big number / stamp / slam), no slow lead-in.
 3. **Open loop**: tease the payoff so people keep watching.
 4. **Make it about the viewer** where it fits ("your money", "you").
@@ -59,7 +59,7 @@ The owner wants this page run by you, not by him. Think about what would make th
 Before picking, score the candidate 0–3, one point each:
 - **Your wallet / daily life in India**: prices, fuel, rupee, loans, apps people use, jobs, things people buy.
 - **In the news this week** (or a launch/result day), checked by date.
-- **One jaw-drop number or twist** that fits in the first line.
+- **One jaw-drop number or twist the viewer doesn't already know**, and it fits in the first line. A price rise people have already seen ("milk/petrol/tyres got costlier") scores 0 here unless the first line is the hidden cause (price-rise reels were 0 for 3, 26 Nov 2026).
 Pick only 2+; prefer 3. Foreign or history topics need an Indian angle in the first line ("Why China pays its people to shop — and why your phone could get cheaper"). Skip anniversaries unless something new happened.
 
 ## Topics and initiative
