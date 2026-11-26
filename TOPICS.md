@@ -6,7 +6,6 @@ The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
 - [ ] How "free" credit cards make money
-- [ ] How IPL teams make money
 
 ## Done
 - [x] 2026-11-19 Dubai: City of Gold
@@ -24,5 +23,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-25 1:30 PM Dutch prisons: from empty cells to no cells (queue idea "Why Dutch prisons are shutting down" was a 2016–18 story and is now reversed, so reframed to the 16 Nov 2026 news: govt may free some prisoners up to 4 weeks early; 19 of 58 prisons shut in 5 years to 2017; ~3,300 convicts waiting at home, Dec 2025) — https://www.instagram.com/reel/DgJ3wmQqqRZ/ | https://youtube.com/shorts/5O7UtsLOyI8
 - [x] 2026-11-25 7:00 PM Petrol: oil got cheaper, why not petrol? (queue idea "Why petrol costs what it costs", given this week's hook: Brent ~$91 vs ~$120 Indian basket in Oct, Delhi petrol frozen at ₹102.12 since May; ~₹28 of it is tax = excise ₹11.90 + Delhi VAT 19.4% ₹16.59; Centre's ₹10/litre excise cut on 27 Mar 2026 went to oil companies' losses; MoS Suresh Gopi: cut not feasible yet, 16 Nov 2026) — https://www.instagram.com/reel/DgKg_kPhkm0/ | https://youtube.com/shorts/ybp5QWdAkK8
 - [x] 2026-11-26 1:30 PM Why milk keeps getting costlier (picked over the queue, which stays as is, because it scores 3/3: Amul & Mother Dairy's second hike of 2026 on 12 Nov, up to ₹4/litre, Delhi full cream ₹72→₹76; feed & fodder ≈70–75% of milk's cost (NDDB); weak rains → more bought feed with maize; maize also goes into ethanol for petrol and hit record highs (Reuters, 4 Nov 2026)) — https://www.instagram.com/reel/DgMcxtIhg8D/ | https://youtube.com/shorts/VxojhlsQhZI
+- [x] 2026-11-26 7:00 PM How IPL teams make money (queue idea, given this week's peg: IPL 2027 retentions, 18 Nov 2026, ₹1,002 crore for 184 players; auction 16 Dec in Goa. Core idea: each team gets ~₹484 crore a season from the central media-rights pool, about half of the ₹48,390 crore 2023–27 deal split equally 10 ways (GrowthX, Apr 2026), so champion or last place, same cheque) — https://www.instagram.com/reel/DgNGDNQh_kg/ | https://youtube.com/shorts/TMYlz_JJMmc
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending
