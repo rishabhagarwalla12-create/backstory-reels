@@ -3,23 +3,24 @@
 Update the table every run (Instagram insights: views, reach, ig_reels_avg_watch_time, saved, shares) for the last ~20 reels.
 Watched % = avg watch time / reel length. Decisions go in the log at the bottom with the date and the reason.
 
-## Reels (Instagram, lifetime, as of 2026-11-25 17:45 IST)
+## Reels (Instagram, lifetime, as of 2026-11-26 11:45 IST)
 | Date | Slot | Reel | Len s | Views | Reach | Avg watch s | Watched % | Saves | Shares |
 |---|---|---|---|---|---|---|---|---|---|
 | 11-19 | 1:30 PM | Dubai: City of Gold | ~60 | 218 | 175 | 10.5 | ~18% | 0 | 0 |
 | 11-19 | 7 PM | PlayStation / GTA 6 launch day | 57 | **613** | 504 | **19.5** | 34% | **5** | **11** |
 | 11-20 | 10:40 AM | Paytm wallet comeback | 60 | 145 | 120 | 9.5 | 16% | 0 | 0 |
 | 11-20 | 7 PM | Government tenders | 60 | 133 | 113 | 6.3 | 10% | 0 | 1 |
-| 11-21 | 1:30 PM | Rupee at ₹96.96 | 59 | **1,232** | 1,080 | **14.3** | 24% | 0 | 0 |
+| 11-21 | 1:30 PM | Rupee at ₹96.96 | 59 | **1,233** | 1,081 | **14.3** | 24% | 0 | 0 |
 | 11-21 | 7 PM | Demonetisation at 10 | 58 | 146 | 125 | 4.3 | 7% | 0 | 0 |
 | 11-22 | 1:30 PM | Astrology apps' meter | 40 | 179 | 156 | 4.3 | 11% | 0 | 0 |
-| 11-22 | 7 PM | China pays people to shop | 42 | 119 | 106 | 7.6 | 18% | 0 | 0 |
-| 11-23 | 1:30 PM | India's oil lasts 10 days | 41 | **1,213** | 1,018 | **13.7** | 33% | 1 | 2 |
-| 11-23 | 7 PM | Tyre prices | 42 | 128 | 109 | 6.5 | 15% | 0 | 0 |
+| 11-22 | 7 PM | China pays people to shop | 42 | 120 | 106 | 7.7 | 18% | 0 | 0 |
+| 11-23 | 1:30 PM | India's oil lasts 10 days | 41 | **1,216** | 1,021 | **13.7** | 33% | 1 | 2 |
+| 11-23 | 7 PM | Tyre prices | 42 | 129 | 110 | 6.6 | 16% | 0 | 0 |
 | 11-24 | 1:30 PM | Bulk Scotch 162.5% duty | 45 | 196 | 164 | 10.8 | 24% | 0 | 0 |
-| 11-24 | 7 PM | Who invented the weekend | 42 | 111 | 103 | 5.5 | 13% | 0 | 0 |
-| 11-25 | 1:30 PM | Dutch prisons (hours old) | 44 | 145 | 117 | 10.0 | 23% | 0 | 0 |
-| 11-25 | 7 PM | Petrol: oil cheaper, petrol not (new) | 48 | – | – | – | – | – | – |
+| 11-24 | 7 PM | Who invented the weekend | 42 | 112 | 104 | 5.5 | 13% | 0 | 0 |
+| 11-25 | 1:30 PM | Dutch prisons | 44 | 148 | 120 | 9.9 | 22% | 0 | 0 |
+| 11-25 | 7 PM | Petrol: oil cheaper, petrol not (16 h old) | 48 | 129 | 116 | 10.4 | 22% | 0 | 0 |
+| 11-26 | 1:30 PM | Milk prices: cow food vs ethanol (new) | 42 | – | – | – | – | – | – |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
@@ -27,8 +28,10 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 - Winners were about **an Indian viewer's money or daily life, in the news that week** (rupee record low, India's fuel backup, GTA 6 launch day). Foreign stories without an Indian stake (China, Dutch prisons), history (weekend) and anniversaries (demonetisation) stayed at the floor.
 - Only PlayStation got real saves/shares (5/11): a "trick" people want to send a friend ("printer trick").
 - 1:30 PM averaged ~530 views vs ~210 at 7 PM, but two breakouts drive that. Too early to move slots; recheck on Sunday.
+- 26 Nov: petrol (3/3 on the topic score, 7 PM) is still at the floor after 16 h (129 views, 10.4 s avg). A good topic is necessary, not enough. At 7 PM only 1 of 7 reels broke out (PlayStation, launch day) vs 2 of 6 at 1:30 PM: the slot question goes to Sunday's review. Share prompt: 0 shares on its first reel (too early).
 
 ## Decisions log
+- 2026-11-26 (1:30 PM run): no new rule. One day of new data (petrol at the floor, everything else flat) isn't a clear signal, and the topic score has had one test. Applied the current rules: milk topic scores 3/3 (milk is in every home + Amul/Mother Dairy's second hike of 2026 on 12 Nov and food inflation news this month + twist "part of the reason is in your petrol tank": maize for ethanol). Hook = "₹4 MORE" on frame 0, like the rupee/oil winners that led with one hard number.
 - 2026-11-25 (7 PM run): no new rule. Numbers barely moved since the 3:35 PM check (Dutch prisons 141→145 views, all others flat), so the 25 Nov rules stand. Applied them: petrol topic scores 3/3 (your wallet + crude fell this month while pump prices stayed frozen since May + "₹28 of ₹102 is tax" / "the ₹10 tax cut you never saw").
 - 2026-11-25: Grid covers with the topic in 3–6 words (owner feedback; grid was unreadable). COVER RULES.
 - 2026-11-25: Story-style narration, owner chose voice B: Kokoro `am_fenrir`, speed 1.05. STORY VOICE.
