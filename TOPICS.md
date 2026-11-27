@@ -5,7 +5,7 @@ When the queue is empty, pick a fresh topic from that week's news or finshots.in
 The owner may add ideas here at any time; their ideas go first.
 
 ## Queue
-- [ ] How "free" credit cards make money
+(empty: pick from this week's news, see above)
 
 ## Done
 - [x] 2026-11-19 Dubai: City of Gold
@@ -24,5 +24,6 @@ The owner may add ideas here at any time; their ideas go first.
 - [x] 2026-11-25 7:00 PM Petrol: oil got cheaper, why not petrol? (queue idea "Why petrol costs what it costs", given this week's hook: Brent ~$91 vs ~$120 Indian basket in Oct, Delhi petrol frozen at ₹102.12 since May; ~₹28 of it is tax = excise ₹11.90 + Delhi VAT 19.4% ₹16.59; Centre's ₹10/litre excise cut on 27 Mar 2026 went to oil companies' losses; MoS Suresh Gopi: cut not feasible yet, 16 Nov 2026) — https://www.instagram.com/reel/DgKg_kPhkm0/ | https://youtube.com/shorts/ybp5QWdAkK8
 - [x] 2026-11-26 1:30 PM Why milk keeps getting costlier (picked over the queue, which stays as is, because it scores 3/3: Amul & Mother Dairy's second hike of 2026 on 12 Nov, up to ₹4/litre, Delhi full cream ₹72→₹76; feed & fodder ≈70–75% of milk's cost (NDDB); weak rains → more bought feed with maize; maize also goes into ethanol for petrol and hit record highs (Reuters, 4 Nov 2026)) — https://www.instagram.com/reel/DgMcxtIhg8D/ | https://youtube.com/shorts/VxojhlsQhZI
 - [x] 2026-11-26 7:00 PM How IPL teams make money (queue idea, given this week's peg: IPL 2027 retentions, 18 Nov 2026, ₹1,002 crore for 184 players; auction 16 Dec in Goa. Core idea: each team gets ~₹484 crore a season from the central media-rights pool, about half of the ₹48,390 crore 2023–27 deal split equally 10 ways (GrowthX, Apr 2026), so champion or last place, same cheque) — https://www.instagram.com/reel/DgNGDNQh_kg/ | https://youtube.com/shorts/TMYlz_JJMmc
+- [x] 2026-11-27 1:30 PM How "free" credit cards make money (queue idea, with this week's peg: RBI data out 25 Nov 2026 shows ₹2.45 lakh crore of card spending in October, +20% in a month. Core idea: the shop pays ~₹2 per ₹100 swiped (MDR, usually 1–3%; most of it goes to the issuing bank, per Cashfree Nov 2026), and the bank's other earner is the "minimum amount due": pay only that and interest of ~30–45% a year runs on everything you owe, even new swipes) — https://www.instagram.com/reel/DgPBn_tT5re/ | https://youtube.com/shorts/7N2kR5OnpAg
 - Note: the owner uploaded the first 4 reels (Dubai, PlayStation, Paytm, Tenders) to YouTube himself. From 2026-11-21 every reel goes to BOTH Instagram and YouTube.
 - [skip] Iran visa-free entry ended — happened Nov 2025, not trending

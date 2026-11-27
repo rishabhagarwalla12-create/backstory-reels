@@ -22,7 +22,7 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 | 11-25 | 7 PM | Petrol: oil cheaper, petrol not | 48 | 156 | 138 | 8.8 | 18% | 0 | 0 |
 | 11-26 | 1:30 PM | Milk prices: cow food vs ethanol | 42 | 183 | 163 | 6.0 | 14% | 1 | 0 |
 | 11-26 | 7 PM | IPL teams' ₹484 cr guaranteed cheque (16 h old) | 41 | **1,245** | 1,083 | **11.6** | 28% | 2 | 0 |
-| 11-27 | 1:30 PM | "Free" credit cards: who pays (new) | – | – | – | – | – | – | – |
+| 11-27 | 1:30 PM | "Free" credit cards: who pays (new) | 41 | – | – | – | – | – | – |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
