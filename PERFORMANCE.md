@@ -3,7 +3,7 @@
 Update the table every run (Instagram insights: views, reach, ig_reels_avg_watch_time, saved, shares) for the last ~20 reels.
 Watched % = avg watch time / reel length. Decisions go in the log at the bottom with the date and the reason.
 
-## Reels (Instagram, lifetime, as of 2026-11-27 11:50 IST)
+## Reels (Instagram, lifetime, as of 2026-11-27 18:20 IST)
 | Date | Slot | Reel | Len s | Views | Reach | Avg watch s | Watched % | Saves | Shares |
 |---|---|---|---|---|---|---|---|---|---|
 | 11-19 | 1:30 PM | Dubai: City of Gold | ~60 | 218 | 175 | 10.5 | ~18% | 0 | 0 |
@@ -20,9 +20,10 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 | 11-24 | 7 PM | Who invented the weekend | 42 | 114 | 104 | 5.4 | 13% | 0 | 0 |
 | 11-25 | 1:30 PM | Dutch prisons | 44 | 151 | 120 | 9.8 | 22% | 0 | 0 |
 | 11-25 | 7 PM | Petrol: oil cheaper, petrol not | 48 | 156 | 138 | 8.8 | 18% | 0 | 0 |
-| 11-26 | 1:30 PM | Milk prices: cow food vs ethanol | 42 | 183 | 163 | 6.0 | 14% | 1 | 0 |
-| 11-26 | 7 PM | IPL teams' ₹484 cr guaranteed cheque (16 h old) | 41 | **1,245** | 1,083 | **11.6** | 28% | 2 | 0 |
-| 11-27 | 1:30 PM | "Free" credit cards: who pays (new) | 41 | – | – | – | – | – | – |
+| 11-26 | 1:30 PM | Milk prices: cow food vs ethanol | 42 | 183 | 163 | 6.1 | 14% | 1 | 0 |
+| 11-26 | 7 PM | IPL teams' ₹484 cr guaranteed cheque | 41 | **1,252** | 1,083 | **11.6** | 28% | 2 | 0 |
+| 11-27 | 1:30 PM | "Free" credit cards: who pays (~5 h old) | 41 | 191 | 167 | 6.2 | 15% | 1 | 0 |
+| 11-27 | 7 PM | Black Friday "deals" + who sets the MRP (new) | 45 | – | – | – | – | – | – |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
@@ -36,7 +37,10 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 
 - 27 Nov (1:30 PM run): the first reel made under the "news to the viewer" rule broke out. IPL's guaranteed cheque: 1,245 views / 1,083 reach in 16 h, 11.6 s avg watch (28%), 2 saves. It's the 4th breakout and the biggest so far, and it came at 7 PM. That makes 7 PM 2 of 8 breakouts vs 1:30 PM 2 of 7, so the slot gap is mostly noise; the slot question stays with Sunday's review. Share prompt: 0 shares on its first 3 reels (petrol, milk, IPL), so it's not working yet. The test runs to 2 Dec.
 
+- 27 Nov (7 PM run): the second "news to the viewer" reel, credit cards, is at the floor after ~5 h (191 views, 6.2 s avg, 15%). The rule is now 1 for 2 (IPL broke out), so no change yet. A pattern to check on Sunday: the 3 news breakouts (rupee, oil, IPL) all opened on one huge number with India-wide stakes on frame 0 (₹96.96, 10 DAYS, ₹484 CRORE). Credit cards opened on words only ("Your free credit card? The shop pays for it"), and milk's "₹4 MORE" was a price people had already felt. Share prompt: 0 shares on its first 4 reels.
+
 ## Decisions log
+- 2026-11-27 (7 PM run): no new rule. The data isn't clear yet: the "news to the viewer" rule is 1 for 2, and credit cards is only 5 h old. Applied the current rules plus the frame-0 pattern above: today is Black Friday, so the topic is "8 in 10 Black Friday deals were the same price or cheaper on other days" (Which?, Nov 2025), with the Indian twist that the crossed-out MRP is set by the company, not the government. Topic score 3/3 (shopping apps + Black Friday today + a trick most people don't know). Frame 0 = one huge number, "8 IN 10". It's also a "trick" reel, like PlayStation, the only reel with real shares (11), as a test of the share prompt.
 - 2026-11-27 (1:30 PM run): no new rule; keep the 26 Nov "news to the viewer" rule. Its first test went from the ~150-view floor to 1,245 views (11.6 s avg vs ~7.5 s for floor reels). One result isn't proof, so the measurement continues over the next 3 reels. Applied: "free" credit cards (queue topic, now with a news peg: RBI data out 25 Nov 2026 shows ₹2.45 lakh crore of credit card spending in October, +20% in a month). Hook = the hidden money flow most cardholders don't know about: the shop pays ~₹2 per ₹100 you swipe, and most of it goes to your card's bank.
 - 2026-11-26 (7 PM run): HOOK = NEWS TO THE VIEWER. Changed TOPIC SCORE point 3 and HOOK RULE 1: the opening must reveal something the viewer doesn't already know (a hidden money flow, risk or trick), not a price rise they've already felt; "why X got costlier" only qualifies if the first line is the hidden cause. Reason: price-rise reels 0/3 (avg watch 6.0–9.0 s) vs 13.6–19.5 s for the three "didn't know that" reels. Applied: picked "How IPL teams make money" from the queue (IPL 2027 retentions, 18 Nov; auction 16 Dec), hook "₹484 crore, every IPL team, every season, before a ball is bowled". Measure: avg watch time of the next 4 reels vs the ~7.5 s average of the floor reels.
 - 2026-11-26 (1:30 PM run): no new rule. One day of new data (petrol at the floor, everything else flat) isn't a clear signal, and the topic score has had one test. Applied the current rules: milk topic scores 3/3 (milk is in every home + Amul/Mother Dairy's second hike of 2026 on 12 Nov and food inflation news this month + twist "part of the reason is in your petrol tank": maize for ethanol). Hook = "₹4 MORE" on frame 0, like the rupee/oil winners that led with one hard number.
