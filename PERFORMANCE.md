@@ -3,7 +3,7 @@
 Update the table every run (Instagram insights: views, reach, ig_reels_avg_watch_time, saved, shares) for the last ~20 reels.
 Watched % = avg watch time / reel length. Decisions go in the log at the bottom with the date and the reason.
 
-## Reels (Instagram, lifetime, as of 2026-11-28 11:45 IST)
+## Reels (Instagram, lifetime, as of 2026-11-28 17:45 IST)
 | Date | Slot | Reel | Len s | Views | Reach | Avg watch s | Watched % | Saves | Shares |
 |---|---|---|---|---|---|---|---|---|---|
 | 11-19 | 1:30 PM | Dubai: City of Gold | ~60 | 218 | 175 | 10.5 | ~18% | 0 | 0 |
@@ -21,10 +21,11 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 | 11-25 | 1:30 PM | Dutch prisons | 44 | 151 | 120 | 9.8 | 22% | 0 | 0 |
 | 11-25 | 7 PM | Petrol: oil cheaper, petrol not | 48 | 156 | 138 | 8.8 | 18% | 0 | 0 |
 | 11-26 | 1:30 PM | Milk prices: cow food vs ethanol | 42 | 183 | 163 | 6.1 | 14% | 1 | 0 |
-| 11-26 | 7 PM | IPL teams' ₹484 cr guaranteed cheque | 41 | **1,256** | 1,088 | **11.6** | 28% | 2 | 0 |
-| 11-27 | 1:30 PM | "Free" credit cards: who pays | 41 | 205 | 180 | 6.0 | 15% | 1 | 0 |
-| 11-27 | 7 PM | Black Friday "deals" + who sets the MRP (~17 h old) | 45 | 102 | 84 | 6.4 | 14% | 0 | 0 |
-| 11-28 | 1:30 PM | Wedding season: ₹7.5 lakh cr in 25 days, deadline set by the stars (new) | 43 | – | – | – | – | – | – |
+| 11-26 | 7 PM | IPL teams' ₹484 cr guaranteed cheque | 41 | **1,257** | 1,090 | **11.6** | 28% | 2 | 0 |
+| 11-27 | 1:30 PM | "Free" credit cards: who pays | 41 | 205 | 181 | 6.0 | 15% | 1 | 0 |
+| 11-27 | 7 PM | Black Friday "deals" + who sets the MRP | 45 | 127 | 109 | 6.1 | 14% | 0 | 0 |
+| 11-28 | 1:30 PM | Wedding season: ₹7.5 lakh cr in 25 days, deadline set by the stars (~4 h old) | 43 | 166 | 139 | 3.9 | 9% | 0 | 0 |
+| 11-28 | 7 PM | How free Jio data won India: 2 in 3 telcos gone (new) | 41 | – | – | – | – | – | – |
 
 ## What the numbers say (25 Nov)
 - Every reel gets a test audience of ~100–200. Only the ones that **held people 13+ seconds on average** (rupee, oil, PlayStation) got pushed to 500–1,200. Watch time is the lever.
@@ -42,7 +43,10 @@ Watched % = avg watch time / reel length. Decisions go in the log at the bottom 
 
 - 28 Nov (1:30 PM run): Black Friday is the weakest start yet: 102 views / 84 reach after ~17 h, 6.4 s avg (14%), 0 shares, even with one big number on frame 0 ("8 IN 10"). Credit cards settled at 205 views, 6.0 s. That makes household-wallet reels 0 for 5: tyres 6.5 s, petrol 8.8 s, milk 6.1 s, credit cards 6.0 s, Black Friday 6.4 s, none above 205 views. All 4 breakouts were the money behind something big that the whole country knows: the rupee (14.3 s), India's oil (13.6 s), IPL (11.6 s), GTA 6/PlayStation (19.5 s). A big number on frame 0 isn't enough when the subject is a shopping tip or a bill. Share prompt: 0 shares on its first 5 reels.
 
+- 28 Nov (7 PM run): the first reel under the "big stage" rule, the wedding season, has the weakest early hold yet: 166 views / 139 reach after ~4 h, 3.9 s avg (9%), 0 shares. Black Friday settled at 127 views, 6.1 s. One reel, 4 h old, isn't enough to judge the rule, but there's a visible difference from the breakouts: the wedding hook was a size stat ("India spends ₹7.5 lakh crore on weddings"), which traders' body CAIT puts out every season, so it's big but not news. Each breakout opened on a twist inside the big subject: a guaranteed cheque "before a ball is bowled", oil that "lasts only 10 days", a record low, Sony earning from a game it didn't make. Share prompt: 0 shares on its first 6 reels.
+
 ## Decisions log
+- 2026-11-28 (7 PM run): no new rule. The "big stage" rule has one reel at ~4 h old (wedding, 3.9 s), which isn't enough to keep or drop it; the measurement over 4 reels continues. Applied the reading above: big stage plus a hidden twist, not a size stat. Topic: how Jio's free launch (free calls and data, Sep 2016–Mar 2017) was followed by two in three phone companies vanishing (Business Today, Nov 2019), leaving 3 private players, and recharges have got costlier since 2019; Jio listed on 28 Oct 2026 in India's biggest IPO. It also has the PlayStation shape (free/cheap at first, you pay later), the only reel with real shares. Score 2/3 (big stage + a twist most people don't know; the listing is a month old, so no this-week point). No share price or valuation figures (SEBI rule).
 - 2026-11-28 (1:30 PM run): TOPIC SCORE point 1 changed from "your wallet / daily life" to "big stage, told through money": a country-scale subject or mega event every Indian knows. Household bills and personal-finance tips (a shelf price, your card, a shopping deal) no longer earn the point. Reason: household-wallet reels are 0 for 5 (6.0–8.8 s avg watch, ≤205 views) while all 4 breakouts were big-stage subjects (11.6–19.5 s). Applied: India's wedding season, ₹7.5 lakh crore and ~52 lakh weddings in 25 days (CAIT via IANS, 19 Nov 2026), squeezed in because the lucky dates (muhurats) run out when Kharmas starts on 16 Dec. Score 3/3. Measure: avg watch time of the next 4 reels vs the ~6.4 s household-wallet average.
 - 2026-11-27 (7 PM run): no new rule. The data isn't clear yet: the "news to the viewer" rule is 1 for 2, and credit cards is only 5 h old. Applied the current rules plus the frame-0 pattern above: today is Black Friday, so the topic is "8 in 10 Black Friday deals were the same price or cheaper on other days" (Which?, Nov 2025), with the Indian twist that the crossed-out MRP is set by the company, not the government. Topic score 3/3 (shopping apps + Black Friday today + a trick most people don't know). Frame 0 = one huge number, "8 IN 10". It's also a "trick" reel, like PlayStation, the only reel with real shares (11), as a test of the share prompt.
 - 2026-11-27 (1:30 PM run): no new rule; keep the 26 Nov "news to the viewer" rule. Its first test went from the ~150-view floor to 1,245 views (11.6 s avg vs ~7.5 s for floor reels). One result isn't proof, so the measurement continues over the next 3 reels. Applied: "free" credit cards (queue topic, now with a news peg: RBI data out 25 Nov 2026 shows ₹2.45 lakh crore of credit card spending in October, +20% in a month). Hook = the hidden money flow most cardholders don't know about: the shop pays ~₹2 per ₹100 you swipe, and most of it goes to your card's bank.
