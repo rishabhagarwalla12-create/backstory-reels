@@ -57,7 +57,7 @@ The owner wants this page run by you, not by him. Think about what would make th
 
 ## TOPIC SCORE (from the data, 25 Nov 2026)
 Before picking, score the candidate 0–3, one point each:
-- **Your wallet / daily life in India**: prices, fuel, rupee, loans, apps people use, jobs, things people buy.
+- **Big stage, told through money** (28 Nov 2026, from the data): a country-scale subject or mega event every Indian knows: the rupee, India's oil, IPL/cricket, the wedding season, a mega launch (GTA 6), a giant brand. Household bills and personal-finance tips (a shelf price, your card, a shopping deal) don't earn this point: they were 0 for 5 (6.0–8.8 s avg watch) while all 4 breakouts were big-stage subjects.
 - **In the news this week** (or a launch/result day), checked by date.
 - **One jaw-drop number or twist the viewer doesn't already know**, and it fits in the first line. A price rise people have already seen ("milk/petrol/tyres got costlier") scores 0 here unless the first line is the hidden cause (price-rise reels were 0 for 3, 26 Nov 2026).
 Pick only 2+; prefer 3. Foreign or history topics need an Indian angle in the first line ("Why China pays its people to shop — and why your phone could get cheaper"). Skip anniversaries unless something new happened.
